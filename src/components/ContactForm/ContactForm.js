@@ -8,30 +8,30 @@ const ContactForm = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <div class="form-group">
-                        <label>Name</label>
-                        <input type="email" class="form-control" placeholder="Enter your name..." />
+                        <label>Nombre</label>
+                        <input type="email" class="form-control" placeholder="Ingresa tu Nombre..." />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div class="form-group">
-                        <label>E-mail Address</label>
-                        <input type="email" class="form-control" placeholder="Enter email address..." />
+                        <label>E-mail</label>
+                        <input type="email" class="form-control" placeholder="Ingresa tu direccion de correo..." />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div class="form-group">
-                        <label>Service</label>
+                        <label>Servicio</label>
                         <select class="form-control">
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
-                            <option>Teeth Whitening</option>
+                            <option>Dentaduras</option>
+                            <option>Implantes</option>
+                            <option>Blanqueamiento</option>
+                            <option>Endodoncia</option>
                         </select>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div class="form-group">
-                        <label>Department</label>
+                        <label>Departamento</label>
                         <select class="form-control">
                             <option>Select Department</option>
                             <option>Select Department</option>
@@ -43,12 +43,12 @@ const ContactForm = () => {
                 <div className="col-lg-12">
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Messages</label>
-                        <textarea class="form-control" placeholder='Enter your messages...' rows="3"></textarea>
+                        <textarea class="form-control" placeholder='Ingrese su mensaje...' rows="3"></textarea>
                     </div>
                 </div>
 
                 <div className="col-lg-6">
-                    <button type="submit" class="btn appointment-btn">Book an appointment</button>
+                    <button type="submit" class="btn appointment-btn">Reserva una Cita</button>
                 </div>
                 <div className="col-lg-6">
                     <div className="appointment-call">
@@ -56,8 +56,8 @@ const ContactForm = () => {
                             <img src={icon} alt="icon" />
                         </div>
                         <div className='call-text'>
-                            <p>Dental 24H Emergency</p>
-                            <h6>03 482 394 123</h6>
+                            <p>SERVICIO DENTAL</p>
+                            <h6>+51 943 804 665</h6>
                         </div>
                     </div>
                 </div>

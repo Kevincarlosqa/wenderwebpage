@@ -41,8 +41,8 @@ const Symptoms = () => {
         <section className='symptoms-section section-common pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <SectionTitle 
-                    subTitle="Symptoms"
-                    title="Sign and symptoms you need root canal"
+                    subTitle="Sintomas"
+                    title="Sintomas de que necesitas una Endodoncia"
                     description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
                 />
 

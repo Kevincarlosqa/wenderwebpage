@@ -14,11 +14,11 @@ const AboutBanner = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-5">
                                 <div className="about-banner-text">
-                                    <h2>About Us</h2>
+                                    <h2>Acerca de Nosotros</h2>
                                     <p>We want you to feel amazing about your oral wellness. Not just twice a year, but every time you take a bite, tell a joke, laugh, or share a kiss.</p>
 
                                     <div className="theme-btn">
-                                        <Link to='/'>Contact Us</Link>
+                                        <Link to='/'>Contáctanos</Link>
                                     </div>
                                 </div>
                             </div>

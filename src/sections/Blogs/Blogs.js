@@ -11,7 +11,7 @@ const Blogs = () => {
             <div className="container">
                 <SectionTitle
                     subTitle="Blogs"
-                    title="Stay updated with our latest news"
+                    title="Ultimas Noticias"
                 />
 
                 <div className="row">

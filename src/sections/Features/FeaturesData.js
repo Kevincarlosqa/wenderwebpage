@@ -17,7 +17,7 @@ const featuresData = [
     {
         'icon': iconThree,
         'title': 'Full-service dentistry',
-        'description': 'Our clinic offer a full  of dental service, from exams to implants and veneers.'
+        'description': 'Our clinic offer a full  of dental service, from exams to Implantes and veneers.'
     },
     {
         'icon': iconFour,

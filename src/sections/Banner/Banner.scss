@@ -103,6 +103,9 @@
 
         .info-img {
             margin-right: 10px;
+            img {
+
+            }
         }
 
         .info-text {
@@ -124,6 +127,7 @@
     .shapes {
         img {
             position: absolute;
+            animation: floatAnimation 3s infinite alternate ease-in-out;
 
             &:nth-child(1) {
                 left: 0;
@@ -143,7 +147,15 @@
                 z-index: -1;
             }
         }
+    }
 
+    @keyframes floatAnimation {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-20px);
+        }
     }
 
 }

@@ -11,7 +11,7 @@ const Footer = () => {
 
     const footerMenu = [
         {
-            'name' : 'About Us',
+            'name' : 'Acerca de Nosotros',
             'link' : '/'
         },
         {
@@ -34,18 +34,18 @@ const Footer = () => {
 
     const footerContacts = [
         {
-            'title': 'Phone Number',
-            'info': '+088 123 654 987',
+            'title': 'Numero de Celular',
+            'info': '+51 943 804 665',
             'icon': call
         },
         {
-            'title': 'Open Hour',
+            'title': 'Horario',
             'info': '09:00 AM - 18:00 PM',
             'icon': time
         },
         {
-            'title': 'Clinic Address',
-            'info': '35 West Dental Street California 1004',
+            'title': 'Direccion de la Clinica',
+            'info': 'Tacna',
             'icon': location
         }
     ]
@@ -58,7 +58,7 @@ const Footer = () => {
                         <div className="footer-logo">
                             <img src={logo} alt="logo" />
                         </div>
-                        <p>Dental Care Seattle is a top-rated local practice for cosmetic, preventative, and restorative dentistry on First Hill</p>
+                        <p>Nuestro Servicio usa las mejores prácticas para la odontología cosmética, preventiva y restauradora</p>
 
                         <div className="social-logo">
                             <p>Follow us on</p>
@@ -100,7 +100,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="copyright-area">
+                {/* <div className="copyright-area">
                     <div className='copy-text'>
                         <p>&copy; Dentalist. All Right Reserved</p>
                     </div>  
@@ -110,7 +110,7 @@ const Footer = () => {
                             <li><Link to='/'>Privacy Policy</Link></li>
                         </ul>
                     </div>                          
-                </div>
+                </div> */}
             </div>
         </footer>
     );

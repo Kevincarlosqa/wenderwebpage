@@ -7,15 +7,15 @@ const Navbar = () => {
 
     const navbarItems = [
         {
-            name: 'Home',
+            name: 'Principal',
             path: '/',
         },
         {
-            name: 'About Us',
+            name: 'Acerca de Nosotros',
             path: '/about',
         },
         {
-            name: 'Single Service',
+            name: 'Servicios',
             path: '/singleservice',
         },
         {
@@ -23,7 +23,7 @@ const Navbar = () => {
             path: '/blogs',
         },
         {
-            name: 'Contact Us',
+            name: 'Contáctanos',
             path: '/contact',
         }
     ];
@@ -35,7 +35,8 @@ const Navbar = () => {
                     <div className="container-fluid">
                         {/* Logo */}
                         <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="logo" />
+                            {/* <img src={logo} alt="logo" /> */}
+                            <span className=''>Wender Condori</span>
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -54,7 +55,7 @@ const Navbar = () => {
                             
                             {/* Navbar Button */}
                             <div className="theme-btn">
-                                <Link to="/contact">Book appointment</Link>
+                                <Link to="/contact">Reserva una Cita</Link>
                             </div>
                         </div>
                     </div>

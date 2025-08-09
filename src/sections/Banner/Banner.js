@@ -3,7 +3,7 @@ import './Banner.scss';
 import {Link} from 'react-router-dom';
 import icon from '../../assets/banner/icons/Calling.png';
 import bannerImg from '../../assets/banner/1.png';
-import doctorImg from '../../assets/banner/doctor.png';
+import doctorImg from '../../assets/banner/willy.png';
 import bannerPattern from '../../assets/banner/pattern_02.png';
 import shapeOne from '../../assets/banner/vector_01.png';
 import shapeTwo from '../../assets/banner/vector_02.png';
@@ -20,12 +20,12 @@ const Banner = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="banner-text" data-aos="fade-up" data-aos-duration="2000">
-                                    <h1>Entrust your smile to professionals</h1>
+                                    <h1>Confia tu sonrisa a los profesionales</h1>
                                     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
 
                                     <div className="banner-bottom">
                                         <div className="theme-btn">
-                                            <Link to="/contact">Book an appointment</Link>
+                                            <Link to="/contact">Reserva una Cita</Link>
                                         </div>
 
                                         <div className="banner-call">
@@ -33,8 +33,8 @@ const Banner = () => {
                                                 <img src={icon} alt="icon" />
                                             </div>
                                             <div className='call-text'>
-                                                <p>Dental 24H Emergency</p>
-                                                <h6>03 482 394 123</h6>
+                                                <p>Número para reservaciones</p>
+                                                <h6>+51 943 804 665</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -48,11 +48,11 @@ const Banner = () => {
                                     </div>
                                     <div className='info-box'>
                                         <div className="info-img">
-                                            <img src={doctorImg} alt="doctor" />
+                                            <img src={doctorImg} alt="doctor" style={{width: 40, height: 40,borderRadius: '9999px'  }} />
                                         </div>
                                         <div className='info-text'>
-                                            <p>Dr. Samantha Alice</p>
-                                            <p><small>Consultant</small></p>
+                                            <p>Dr. Wender Condori</p>
+                                            <p><small>Dentista</small></p>
                                         </div>
                                     </div>  
 

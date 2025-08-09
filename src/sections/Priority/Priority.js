@@ -23,7 +23,7 @@ const Priority = () => {
                             />
 
                             <div className="theme-btn">
-                                <Link to='/'>Book an appointment</Link>
+                                <Link to='/'>Reserva una Cita</Link>
                             </div>
                         </div>
                     </div>

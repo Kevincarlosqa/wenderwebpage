@@ -55,10 +55,10 @@ const SingleBlog = () => {
                                     <h3 className="sidebar-heading">Categories</h3>
                                     <ul>
                                         <li><Link href="/">Technology</Link></li>
-                                        <li><Link href="/">Root Canal</Link></li>
+                                        <li><Link href="/">Endodoncia</Link></li>
                                         <li><Link href="/">Teeth</Link></li>
-                                        <li><Link href="/">Whitening</Link></li>
-                                        <li><Link href="/">Dentures</Link></li>
+                                        <li><Link href="/">Blanqueamiento</Link></li>
+                                        <li><Link href="/">Dentaduras</Link></li>
                                     </ul>
                                 </div>
                             </div>

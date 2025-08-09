@@ -75,8 +75,8 @@ const Testimonial = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <SectionTitle 
-                        subTitle="TESTIMONIAL"
-                        title="What people have said about us"
+                        subTitle="TESTIMONIOS"
+                        title="Lo que las personas dicen Acerca de Nosotros"
                         />
                     </div>
                     <div className="col-lg-6">
